@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<style> 
+body { 
+    background-color: rgb(236, 153, 209);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+</style>
+
+<body>
+
+    <h2>Cadastro</h2>
+
+    <form>
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade"><br><br>
+
+        <label for="data">Data de Nascimento:</label><br>
+        <input type="date" id="data" name="data"><br><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha"><br><br>
+
+        <p>Hobbies:</p>
+        <input type="checkbox" name="hobby" value="musica"> Música<br>
+        <input type="checkbox" name="hobby" value="esporte"> Esporte<br>
+        <input type="checkbox" name="hobby" value="jogos"> Jogos<br><br>
+
+        <p>Turno de estudo:</p>
+        <input type="radio" name="turno" value="manha"> Manhã<br>
+        <input type="radio" name="turno" value="tarde"> Tarde<br>
+        <input type="radio" name="turno" value="noite"> Noite<br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+
+</body>
+</html>
